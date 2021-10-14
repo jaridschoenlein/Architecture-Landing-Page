@@ -1,0 +1,271 @@
+html body {
+    background-color: #d9d9d9;
+    color: #1d1d1d;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    font-family: termina, sans-serif;
+    transition: 0.3s;
+
+}
+
+body.darkMode {
+    background-color: #1d1d1d;
+    color: #d9d9d9;
+}
+
+body.darkMode header object{
+    color: #d9d9d9;
+}
+
+body.darkMode ion-icon{
+    color: #d9d9d9;
+}
+
+svg {
+    color: #1d1d1d;
+}
+
+body.darkMode svg{
+    color: #d9d9d9;
+}
+
+object {
+    color: #1d1d1d;
+}
+
+body.darkMode object {
+    color: #d9d9d9;
+}
+
+header { 
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 64px;
+}
+
+
+header img {
+    height: 60px;
+    width: 60px;
+    
+}
+
+a {
+    cursor: pointer;
+}
+
+ion-icon {
+    font-size: 38px;
+    color: #1d1d1d;
+    cursor: pointer;
+
+}
+
+section.section1 {
+    display: block;
+    margin-top: -80px;
+}
+
+section.section1 h1 {
+    font-size: 135px;
+    font-weight: 500;
+    line-height: 1.1;
+    position: relative;
+    margin-left: 80px;
+    z-index: 2;
+
+}
+
+section.section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20vh;
+    margin-left: 120px;
+    margin-right: 100px;
+
+    
+}
+
+img.hidden {
+    display: none;
+}
+
+section.section2 img {
+    height: 350px;
+    width: 500px;
+    margin-top: -3.2vh;
+
+}
+
+section.section2 button {
+    color: #1d1d1d;
+        background-color: transparent;
+        border: 2px solid #1d1d1d;
+        border-radius: 50px;
+        font-size: 22px;
+        padding: 15px;
+        width: 350px;
+        margin-top: 10vh;
+        font-family: termina;
+        cursor: pointer;
+        transition: 0.3s;
+
+}
+
+section.section2 button:hover {
+    color: #1d1d1d;
+        background-color: #1d1d1d;
+        color: #d9d9d9;
+        border: 2px solid #1d1d1d;
+        border-radius: 50px;
+        font-size: 22px;
+        padding: 15px;
+        width: 350px;
+        font-family: termina;
+        cursor: pointer;
+
+}
+
+body.darkMode section.section2 button {
+    color: #d9d9d9;
+    border: 2px solid #d9d9d9;
+}
+
+body.darkMode section.section2 button:hover {
+    background-color: #d9d9d9;
+    color: #1d1d1d;
+    border: 2px solid #1d1d1d;
+}
+
+
+section.section3  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.section3 h4 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1128px) {
+
+
+    section.section1 h1 {
+        font-size: 110px; 
+    }
+
+    section.section2 img {
+        height: 55%;
+        width: 55%;
+        margin-top: 0vh;
+    
+    }
+
+    section.section2 {
+     
+        margin-top: -15vh;
+
+    
+        
+    }
+
+    section.section2 button {
+
+            font-size: 18px;
+            padding: 15px;
+            width: 270px;
+
+    
+    }
+
+    section.section2 button:hover {
+  
+            font-size: 18px;
+            padding: 15px;
+            width: 270px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 920px) {
+
+    section.section1 {
+        display: block;
+        margin-top: 0px;
+    }
+
+
+    section.section1 h1 {
+        font-size: 80px; 
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    section.section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+    
+        
+    }
+
+    section.section2 img {
+        height: 85%;
+        width: 85%;
+        margin-top: 0vh;
+    
+    }
+
+    section.section2 button {
+
+            font-size: 18px;
+            padding: 15px;
+            width: 270px;
+
+    
+    }
+
+    section.section2 button:hover {
+  
+            font-size: 18px;
+            padding: 15px;
+            width: 270px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 620px) {
+
+    section.section1 {
+        display: block;
+        margin-top: 0px;
+    }
+
+
+    section.section1 h1 {
+        font-size: 55px; 
+        text-align: center;
+        margin-left: 0px;
+    }
+
+
+
+
+}
