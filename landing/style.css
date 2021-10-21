@@ -253,6 +253,14 @@ section.section3 h4 {
 
 @media screen and (max-width: 620px) {
 
+    header { 
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 18px 34px;
+    }
+
     section.section1 {
         display: block;
         margin-top: 0px;
@@ -260,7 +268,7 @@ section.section3 h4 {
 
 
     section.section1 h1 {
-        font-size: 55px; 
+        font-size: 45px; 
         text-align: center;
         margin-left: 0px;
     }
